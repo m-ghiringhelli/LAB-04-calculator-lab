@@ -9,7 +9,6 @@ test('divide two numbers', (expect) => {
     // Set up your arguments and expectations
 
     const expected = 5;
-    
     //Act 
     // Call the function you're testing and set the result to a const
     
