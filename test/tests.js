@@ -1,19 +1,19 @@
 // IMPORT MODULES under test here:
-import { multiply } from '../calculations.js';
+import { divide } from '../calculations.js';
 
 const test = QUnit.test;
 
 // name your test by what it is testing
-test('multiply two numbers', (expect) => {
+test('divide two numbers', (expect) => {
     //Arrange
     // Set up your arguments and expectations
 
-    const expected = 15;
+    const expected = 5;
     
     //Act 
     // Call the function you're testing and set the result to a const
     
-    const actual = multiply(5, 3); // use your function here
+    const actual = multiply(15, 3); // use your function here
 
     //Expect
     // Make assertions about what is expected versus the actual result
