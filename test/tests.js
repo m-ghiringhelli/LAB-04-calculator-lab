@@ -3,12 +3,10 @@
 
 const test = QUnit.test;
 
-function add(x, y) {
-    return x + y;
-} 
+import { add } from './calculations.js';
 
 // name your test by what it is testing
-test('adds two numbera', (expect) => {
+test('adds two numbers', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const x = 5;
