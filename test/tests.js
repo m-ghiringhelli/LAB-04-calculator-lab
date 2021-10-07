@@ -13,7 +13,7 @@ test('divide two numbers', (expect) => {
     //Act 
     // Call the function you're testing and set the result to a const
     
-    const actual = multiply(15, 3); // use your function here
+    const actual = divide(15, 3); // use your function here
 
     //Expect
     // Make assertions about what is expected versus the actual result
